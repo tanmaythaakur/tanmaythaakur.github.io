@@ -1,10 +1,12 @@
 ---
 title: About Me
 icon: fa-user
-order: 3
+order: 2
 ---
 
-<a href="#" class="image featured"><img src="assets/images/pic08.jpg" alt="" /></a>
+<img src="assets/images/avatar.jpg" alt="" width="250" height="250"/>
 
-<p>I am a 2nd year undergrad at Keshav Memorial Institute of Technology.</p>
-<p>I am a tech enthusiast who loves tinkering computer programs </p>
+<span style="color: black">
+I am a 2nd-year undergrad at **Keshav Memorial Institute of Technology**.  
+Besides majoring in *Electronics and Communications Engineering*, I explore different technologies and am interested in various aspects of Web development and Machine Learning.
+</span>
