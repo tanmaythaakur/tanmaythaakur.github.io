@@ -1,7 +1,7 @@
 ---
 layout: page
 order: 3
-
+title: Books
 icon: fa-book
 ---
 
