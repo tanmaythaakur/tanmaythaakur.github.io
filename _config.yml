@@ -49,8 +49,8 @@ twitter_url:
 facebook_url:
 googleplus_url:
 instagram_url: https://www.instagram.com/tanmaythaakur
-linkedin_url:
-github_url:
+linkedin_url: https://www.linkedin.com/in/thakur-tanmay-raj-singh
+github_url: https://github.com/tanmaythaakur
 pinterest_url:
 slack_url:
 dribbble_url:
@@ -62,3 +62,6 @@ google_analytics:
 # theme: jekyll-theme-prologue
 remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
+
+
+# Additional Plugins

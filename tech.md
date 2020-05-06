@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Technologies
-order: 3
+order: 4
 icon: fa-laptop
 ---
 
