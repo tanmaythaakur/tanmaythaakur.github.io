@@ -3,6 +3,7 @@ layout: post
 date: 2020-05-10 19:33:00 +0530
 title: "Contribution to GeeksforGeeks"
 author: "Tanmay Thaakur"
+icon: fa-file
 ---
 
 

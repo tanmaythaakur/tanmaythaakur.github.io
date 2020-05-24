@@ -3,15 +3,36 @@ layout: default
 ---
 {%- assign _posts = site.posts | sort: 'date' | reverse -%}
 {%- include header.html scrolly_nav=_posts -%}
+
+<style>
+
+	.postContainer {
+		background-color: black;
+		color: white;
+		align-content: center;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#title {
+		color: yellow;
+	}
+
+</style>
+
 <!-- Main -->
 <div id="main">
 	{%- if page.content != "" -%}
 		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
 	<!-- Posts List -->
-	{%- for _post in _posts -%}
+
+	<div class="postContainer">
+		{%- for _post in _posts -%}
 		{%- capture _title -%}
-			<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
+			<a href="{{- _post.url | absolute_url -}}" id="title">{{- _post.title -}}</a>
 		{%- endcapture -%}
 		{%- capture _subtitle -%}
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
@@ -21,5 +42,7 @@ layout: default
 		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">read more</a>{%- endcapture -%}
 		{%- assign _content = _excerpt | append: _link -%}
 		{%- include section.html title=_title subtitle=_subtitle content=_content -%}
-	{%- endfor -%}
+		{%- endfor -%}
+	</div>
+	
 </div>

@@ -1,6 +1,6 @@
 ---
 title: Blog
-icon: fa-alt-pencil
+icon: fa-th-list
 order: 3
 ---
 
