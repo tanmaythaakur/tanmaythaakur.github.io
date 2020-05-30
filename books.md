@@ -13,3 +13,4 @@ icon: fa-book
 3. The Monk who sold his Ferrari - Robin Sharma
 4. The 5 AM CLUB - Robin Sharma
 5. Charles Darwin - A life from beginning to end
+6. The Alchemist
