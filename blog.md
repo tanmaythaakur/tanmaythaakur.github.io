@@ -1,6 +1,6 @@
 ---
 layout: blog
 order: 2
-title: My blog
+title: Blog
 icon: fa-pencil-alt
 ---
