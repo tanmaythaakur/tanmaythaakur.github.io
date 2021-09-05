@@ -15,7 +15,7 @@ icon: fa-laptop
    - An inventory where a user can keep a track of his/her footwear along with various attributes and sales details. User can add/delete/modify the items.
    - Built using Node JS, MongoDB, Bootstrap.
 
-3. F<a href="https://github.com/tanmaythaakur/flight-booking-webapp" style="font-weight:bold; color: blue"> Flight Booking Web App </a>
+3. <a href="https://github.com/tanmaythaakur/flight-booking-webapp" style="font-weight:bold; color: blue"> Flight Booking Web App </a>
 
    - A web-app that lets verified passengers to book a flight ticket. Admins can add/delete/modify the airports/passengers/flights using Django-admin interface in the back end.
    - Built using Django, SQLite, OOP.
